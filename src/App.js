@@ -6,6 +6,7 @@ import SignUp from "./components/Authentication/SignUp";
 import Success from "./components/Authentication/Success";
 import ResetPass from "./components/Authentication/ResetPass";
 import Hi from "./components/Authentication/Hi";
+import Home from "./components/Home";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/success" element={<Success />} />
           <Route path="/rest" element={<ResetPass />} />
           <Route path="/hi" element={<Hi />} />
+          <Route path="/home" element={<Home />} />
         </Routes>
       </BrowserRouter>
     </div>

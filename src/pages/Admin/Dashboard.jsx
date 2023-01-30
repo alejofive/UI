@@ -1,127 +1,13 @@
 import React from "react";
+import Hello from "../../components/Hello";
+import PorcentajeAVG from "../../components/PorcentajeAVG";
 
 const Dashboard = () => {
   return (
     <section className="col-span-10 bg-fondo pb-10">
-      <div className="w-full h-[200px] relative">
-        <img
-          className="w-full h-full object-cover rounded-b-2xl"
-          src="/image/Graphic Side.png"
-          alt=""
-        />
+      <Hello />
 
-        <div className="absolute top-4 left-9">
-          <h1 className="text-white font-bold text-4xl">Hello Devs !</h1>
-          <p className="text-white font-medium text-base mt-2">
-            We are on a mission to help developers like you to build beautiful
-            projects for free.
-          </p>
-        </div>
-
-        <button className="bg-voice rounded py-3 px-6 absolute top-4 right-9 flex items-center">
-          <img
-            className="w-[24px] h-[24px] object-contain mr-2"
-            src="/image/Voice 3.png"
-            alt=""
-          />
-          <p className="text-white text-base">Announcments</p>
-        </button>
-      </div>
-
-      <section className="grid grid-cols-4 gap-10 px-10">
-        <div className="col-span-1 bg-white p-6 rounded-lg -mt-10 z-10">
-          <p className="text-xs font-normal text-gray-500 text-center">
-            AVG Impressions
-          </p>
-          <div className="flex items-center justify-between mt-4">
-            <div>
-              <h3 className="text-black text-3xl font-medium">2.648</h3>
-              <span className="text-xs font-normal text-gray-500">26.84%</span>
-            </div>
-            <div className="w-[59px] h-[59px] bg-cart-flecha flex items-center justify-center rounded-lg">
-              <img
-                className="w-[30px] h-[30px]"
-                src="/image/Arrow - Up Square.png"
-                alt=""
-              />
-            </div>
-          </div>
-
-          <div className="w-full h-2 mt-6 rounded-md bg-cart-flecha">
-            <div className="h-full w-2/4 bg-porcentaje rounded-md"></div>
-          </div>
-        </div>
-
-        <div className="col-span-1 bg-white p-6 rounded-lg -mt-10 z-10">
-          <p className="text-xs font-normal text-gray-500 text-center">
-            AVG Impressions
-          </p>
-          <div className="flex items-center justify-between mt-4">
-            <div>
-              <h3 className="text-black text-3xl font-medium">2.648</h3>
-              <span className="text-xs font-normal text-gray-500">26.84%</span>
-            </div>
-            <div className="w-[59px] h-[59px] bg-cart-flecha2 flex items-center justify-center rounded-lg">
-              <img
-                className="w-[30px] h-[30px]"
-                src="/image/Arrow - Up Square2.png"
-                alt=""
-              />
-            </div>
-          </div>
-
-          <div className="w-full h-2 mt-6 rounded-md bg-cart-flecha">
-            <div className="h-full w-2/4 bg-porcentaje2 rounded-md"></div>
-          </div>
-        </div>
-
-        <div className="col-span-1 bg-white p-6 rounded-lg -mt-10 z-10">
-          <p className="text-xs font-normal text-gray-500 text-center">
-            AVG Impressions
-          </p>
-          <div className="flex items-center justify-between mt-4">
-            <div>
-              <h3 className="text-black text-3xl font-medium">2.648</h3>
-              <span className="text-xs font-normal text-gray-500">26.84%</span>
-            </div>
-            <div className="w-[59px] h-[59px] bg-cart-flecha3 flex items-center justify-center rounded-lg">
-              <img
-                className="w-[30px] h-[30px]"
-                src="/image/Arrow - Up Square3.png"
-                alt=""
-              />
-            </div>
-          </div>
-
-          <div className="w-full h-2 mt-6 rounded-md bg-cart-flecha">
-            <div className="h-full w-2/4 bg-porcentaje3 rounded-md"></div>
-          </div>
-        </div>
-
-        <div className="col-span-1 bg-white p-6 rounded-lg -mt-10 z-10">
-          <p className="text-xs font-normal text-gray-500 text-center">
-            AVG Impressions
-          </p>
-          <div className="flex items-center justify-between mt-4">
-            <div>
-              <h3 className="text-black text-3xl font-medium">2.648</h3>
-              <span className="text-xs font-normal text-gray-500">26.84%</span>
-            </div>
-            <div className="w-[59px] h-[59px] bg-cart-flecha4 flex items-center justify-center rounded-lg">
-              <img
-                className="w-[30px] h-[30px]"
-                src="/image/Arrow - Up Square4.png"
-                alt=""
-              />
-            </div>
-          </div>
-
-          <div className="w-full h-2 mt-6 rounded-md bg-cart-flecha">
-            <div className="h-full w-2/4 bg-porcentaje4 rounded-md"></div>
-          </div>
-        </div>
-      </section>
-
+      <PorcentajeAVG />
       <section className="grid grid-cols-4 gap-10 px-10 mt-10">
         <div className="col-span-1 bg-car-big1 p-6 rounded-lg flex items-center justify-between">
           <div className="bg-cart-flecha2 w-[53px] h-[53px] rounded-2xl flex items-center justify-center">

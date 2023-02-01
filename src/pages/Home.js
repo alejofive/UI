@@ -306,7 +306,7 @@ const Home = () => {
         </div>
       </section>
 
-      <Dashboard />
+      <User />
     </div>
   );
 };

@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Footer from "../components/Footer";
 import Dashboard from "./Admin/Dashboard";
 import User from "./Admin/User";
 
@@ -307,6 +308,8 @@ const Home = () => {
       </section>
 
       <User />
+      <div className="col-span-2"></div>
+      <Footer />
     </div>
   );
 };

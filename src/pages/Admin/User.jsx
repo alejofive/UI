@@ -1,25 +1,28 @@
 import React from "react";
+import LayoutAdmin from "../../components/layouts/Admin";
 import Hello from "../../components/Hello";
 import MenuUser from "../../components/MenuUser";
 import Left from "../../components/Left";
-import Mitad from "../../components/Mitad";
+import Half from "../../components/Half";
 import Right from "../../components/Right";
 
 function User() {
   return (
-    <section className="col-span-10 bg-fondo pb-10">
-      <Hello />
+    <LayoutAdmin>
+      <section className="col-span-10 bg-fondo pb-10">
+        <Hello />
 
-      <MenuUser />
+        <MenuUser />
 
-      <section className="grid grid-cols-8 gap-10 px-10">
-        <Left />
+        <section className="grid grid-cols-8 gap-10 px-10">
+          <Left />
 
-        <Mitad />
+          <Half />
 
-        <Right />
+          <Right />
+        </section>
       </section>
-    </section>
+    </LayoutAdmin>
   );
 }
 

@@ -60,40 +60,51 @@
   background: #e5e5e5;
 }
 
-.bg-cart-flecha {
+.bg-cart-1 {
   background: rgba(192, 50, 33, 0.2);
 }
-
-.bg-cart-flecha2 {
+.bg-cart-u1 {
   background: rgba(7, 154, 162, 0.2);
 }
 
-.bg-cart-flecha3 {
+.bg-cart-2 {
+  background: rgba(7, 154, 162, 0.2);
+}
+
+.bg-cart-3 {
   background: rgba(26, 160, 83, 0.2);
 }
 
-.bg-cart-flecha4 {
+.bg-cart-4 {
   background: rgba(58, 87, 232, 0.2);
 }
 
-.bg-porcentaje {
+.bg-percentage-1 {
   background: #c03221;
 }
 
-.bg-porcentaje2 {
+.bg-percentage-2 {
   background: #068b92;
 }
 
-.bg-porcentaje3 {
+.bg-percentage-3 {
   background: #17904b;
 }
 
-.bg-porcentaje4 {
+.bg-percentage-4 {
   background: #344ed1;
 }
 
 .bg-cart-user {
   background: rgba(241, 106, 27, 0.5);
+}
+
+.bg-cart-u2 {
+  background: rgba(241, 106, 27, 0.5);
+}
+
+.bg-cart-u3 {
+  background: rgba(192, 50, 33, 0.5);
 }
 
 .bg-cart-user2 {
@@ -148,7 +159,7 @@
   color: #344ed1;
 }
 
-.border-abajo {
+.border-abajo1 {
   border-bottom: 3px solid #344ed1;
 }
 
@@ -162,6 +173,22 @@
 
 .border-abajo4 {
   border-bottom: 3px solid #f16a1b;
+}
+
+.bg-porcentaje1 {
+  background: #068b92;
+}
+
+.bg-porcentaje2 {
+  background: #f16a1b;
+}
+
+.bg-porcentaje3 {
+  background: #17904b;
+}
+
+.bg-porcentaje4 {
+  background: #c03221;
 }
 
 .bg-liner-box {
@@ -203,4 +230,3 @@
 .text-dark-primary-border2 {
   border: 1px solid #8a92a6;
 }
-

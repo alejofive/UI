@@ -34,7 +34,7 @@ const Success = () => {
 
           <div className="flex justify-center mt-10">
             <Link
-              to="/hi"
+              to="/welcome"
               className="text-xs rounded px-10 py-2 bg-blue-700 text-white"
             >
               Back to home

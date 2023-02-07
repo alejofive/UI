@@ -1,12 +1,14 @@
 import "./App.css";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-
-import SignIn from "./pages/Authentication/SignIn";
-import SignUp from "./pages/Authentication/SignUp";
-import Success from "./pages/Authentication/Success";
-import ResetPass from "./pages/Authentication/ResetPass";
-import Hi from "./pages/Authentication/Hi";
-import Home from "./pages/Home";
+import {
+  Welcome,
+  SignIn,
+  SignUp,
+  ResetPassword,
+  Success,
+  User,
+  Dashboard,
+} from "./pages";
 
 function App() {
   return (
@@ -16,9 +18,10 @@ function App() {
           <Route path="/" element={<SignIn />} />
           <Route path="/signUp" element={<SignUp />} />
           <Route path="/success" element={<Success />} />
-          <Route path="/rest" element={<ResetPass />} />
-          <Route path="/hi" element={<Hi />} />
-          <Route path="/home" element={<Home />} />
+          <Route path="/resetPassword" element={<ResetPassword />} />
+          <Route path="/welcome" element={<Welcome />} />
+          <Route path="/home" element={<Dashboard />} />
+          <Route path="/user" element={<User />} />
         </Routes>
       </BrowserRouter>
     </div>

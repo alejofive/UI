@@ -1,10 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Footer from "../components/Footer";
-import Dashboard from "./Admin/Dashboard";
-import User from "./Admin/User";
+import Footer from "../Footer";
 
-const Home = () => {
+const LayoutAdmin = ({ children }) => {
   return (
     <div className="grid grid-cols-12">
       <div className="col-span-12 space"></div>
@@ -307,11 +305,11 @@ const Home = () => {
         </div>
       </section>
 
-      <User />
+      {children}
       <div className="col-span-2"></div>
       <Footer />
     </div>
   );
 };
 
-export default Home;
+export default LayoutAdmin;

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Mitad = () => {
+const Half = () => {
   return (
     <div className="col-span-4 rounded-lg mt-10">
       <div className="grid grid-cols-6 gap-10">
@@ -322,4 +322,4 @@ const Mitad = () => {
   );
 };
 
-export default Mitad;
+export default Half;

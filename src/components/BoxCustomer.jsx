@@ -1,6 +1,6 @@
 import React from "react";
 
-const BoxCustomre = () => {
+const BoxCustomer = () => {
   return (
     <section className="col-span-2">
       <div className="grid grid-cols-2 gap-10">
@@ -31,4 +31,4 @@ const BoxCustomre = () => {
   );
 };
 
-export default BoxCustomre;
+export default BoxCustomer;
